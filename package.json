@@ -1,7 +1,7 @@
 {
-  "name": "mozg-framework-npm",
+  "name": "mozg-framework-node",
   "version": "1.0.0",
-  "description": "mozg-framework-npm",
+  "description": "mozg-framework-node",
   "keywords": [
     "natural",
     "integer",
@@ -16,9 +16,9 @@
     "dice",
     "mock"
   ],
-  "homepage": "https://github.com/mozgbrasil/mozg-framework-npm#readme",
+  "homepage": "https://github.com/mozgbrasil/mozg-framework-node#readme",
   "bugs": {
-    "url": "https://github.com/mozgbrasil/mozg-framework-npm/issues",
+    "url": "https://github.com/mozgbrasil/mozg-framework-node/issues",
     "email": "suporte@mozg.com.br"
   },
   "license": "ISC",
@@ -26,13 +26,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozgbrasil/mozg-framework-npm.git"
+    "url": "git+https://github.com/mozgbrasil/mozg-framework-node.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "colors": "*"
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "express": "^4.15.2"
   },
   "devDependencies": {}
 }

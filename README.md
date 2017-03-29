@@ -4,15 +4,47 @@
 [requerimentos]: http://mozgbrasil.github.io/requerimentos/
 [getcomposer]: https://getcomposer.org/
 [uninstall-mods]: https://getcomposer.org/doc/03-cli.md#remove
-[git-releases]: https://github.com/mozgbrasil/mozg-framework-npm/releases
+[git-releases]: https://github.com/mozgbrasil/mozg-framework-node/releases
 
-# mozg-framework-npm
+# mozg-framework-node
 
 ## Sinopse
 
 Framework da Mozg
 
-## Iniciando publicação
+## Requerimento pacote
+
+	# https://www.npmjs.com/package/chalk
+	# https://www.npmjs.com/package/commander
+	# https://www.npmjs.com/package/express
+	# https://www.heroku.com/nodejs
+
+	sudo npm install -g express-generator@4
+
+	npm install --save chalk
+	npm install --save commander
+	npm install --save express
+
+	express --view=pug express-app
+		install dependencies:
+			$ cd express-app && npm install
+
+		run the app:
+			$ DEBUG=express-app:* npm start
+
+
+	npm list
+
+	npm whoami
+
+## Testando pacote local
+
+	# https://docs.npmjs.com/cli/pack
+
+	npm pack
+	npm install /home/marcio/dados/public_html/mozg/git/mozg-framework-node/mozg-framework-node-1.0.0.tgz
+
+## Iniciando publicação do pacote
 
 	# https://docs.npmjs.com/getting-started/publishing-npm-packages
 
@@ -20,8 +52,6 @@ Framework da Mozg
 	npm init
 	npm adduser
 	npm publish
-
-	# https://docs.npmjs.com/cli/pack
 
 ## Instalação - Atualização - Desinstalação - Desativação
 
@@ -37,7 +67,7 @@ Para qualquer atualização no Magento sempre mantenha o Compiler e o Cache desa
 
 ### Para instalar o módulo execute o comando a seguir no terminal do seu servidor no diretório do seu projeto
 
-	npm install --save mozg-framework-npm
+	npm install --save mozg-framework-node
 
 --
 
@@ -49,7 +79,7 @@ Para qualquer atualização no Magento sempre mantenha o Compiler e o Cache desa
 
 ### Para [desinstalar][uninstall-mods] o módulo execute o comando a seguir no terminal do seu servidor
 
-	npm uninstall --save mozg-framework-npm
+	npm uninstall --save mozg-framework-node
 
 --
 
@@ -64,13 +94,13 @@ Equipe Mozg
 ## Badges
 
 [![Join the chat at https://gitter.im/mozgbrasil](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mozgbrasil/)
-[![Latest Stable Version](https://poser.pugx.org/mozgbrasil/mozg-framework-npm/v/stable)](https://packagist.org/packages/mozgbrasil/mozg-framework-npm)
-[![Total Downloads](https://poser.pugx.org/mozgbrasil/mozg-framework-npm/downloads)](https://packagist.org/packages/mozgbrasil/mozg-framework-npm)
-[![Latest Unstable Version](https://poser.pugx.org/mozgbrasil/mozg-framework-npm/v/unstable)](https://packagist.org/packages/mozgbrasil/mozg-framework-npm)
-[![License](https://poser.pugx.org/mozgbrasil/mozg-framework-npm/license)](https://packagist.org/packages/mozgbrasil/mozg-framework-npm)
-[![Monthly Downloads](https://poser.pugx.org/mozgbrasil/mozg-framework-npm/d/monthly)](https://packagist.org/packages/mozgbrasil/mozg-framework-npm)
-[![Daily Downloads](https://poser.pugx.org/mozgbrasil/mozg-framework-npm/d/daily)](https://packagist.org/packages/mozgbrasil/mozg-framework-npm)
-[![Reference Status](https://www.versioneye.com/php/mozgbrasil:mozg-framework-npm/reference_badge.svg?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:mozg-framework-npm/references)
-[![Dependency Status](https://www.versioneye.com/php/mozgbrasil:mozg-framework-npm/1.0.0/badge?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:mozg-framework-npm/1.0.0)
+[![Latest Stable Version](https://poser.pugx.org/mozgbrasil/mozg-framework-node/v/stable)](https://packagist.org/packages/mozgbrasil/mozg-framework-node)
+[![Total Downloads](https://poser.pugx.org/mozgbrasil/mozg-framework-node/downloads)](https://packagist.org/packages/mozgbrasil/mozg-framework-node)
+[![Latest Unstable Version](https://poser.pugx.org/mozgbrasil/mozg-framework-node/v/unstable)](https://packagist.org/packages/mozgbrasil/mozg-framework-node)
+[![License](https://poser.pugx.org/mozgbrasil/mozg-framework-node/license)](https://packagist.org/packages/mozgbrasil/mozg-framework-node)
+[![Monthly Downloads](https://poser.pugx.org/mozgbrasil/mozg-framework-node/d/monthly)](https://packagist.org/packages/mozgbrasil/mozg-framework-node)
+[![Daily Downloads](https://poser.pugx.org/mozgbrasil/mozg-framework-node/d/daily)](https://packagist.org/packages/mozgbrasil/mozg-framework-node)
+[![Reference Status](https://www.versioneye.com/php/mozgbrasil:mozg-framework-node/reference_badge.svg?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:mozg-framework-node/references)
+[![Dependency Status](https://www.versioneye.com/php/mozgbrasil:mozg-framework-node/1.0.0/badge?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:mozg-framework-node/1.0.0)
 
 :cat2:
