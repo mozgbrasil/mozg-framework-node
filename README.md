@@ -42,7 +42,7 @@ Framework da Mozg
 	# https://docs.npmjs.com/cli/pack
 
 	npm pack
-	npm install /home/marcio/dados/public_html/mozg/git/mozg-framework-node/mozg-framework-node-1.0.0.tgz
+	npm install ~/dados/public_html/git/mozg-framework-node/mozg-framework-node-1.0.0.tgz
 
 ## Iniciando publicação do pacote
 
