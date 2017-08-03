@@ -59,12 +59,6 @@ Este módulo destina-se a ser instalado usando o [NPM][getcomposer]
 
 Antes de executar os processos, [clique aqui][requerimentos] e leia os pré-requisitos e sugestões
 
---
-
-Para qualquer atualização no Magento sempre mantenha o Compiler e o Cache desativado
-
---
-
 ### Para instalar o módulo execute o comando a seguir no terminal do seu servidor no diretório do seu projeto
 
 	npm install --save mozg-framework-node
